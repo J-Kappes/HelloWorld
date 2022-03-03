@@ -1,7 +1,5 @@
 #include "window.h"
-#include <QLineEdit>
-#include <QPushButton>
-#include <QFile>
+
 
 Window::Window(QWidget *parent) :
  QWidget(parent)

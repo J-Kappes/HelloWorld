@@ -2,9 +2,15 @@
 #define WINDOW_H
 
 #include <QWidget>
+#include <QFile>
+#include <QLineEdit>
+#include <QPushButton>
+#include <QTextStream>
 
 class QPushButton;
 class QLineEdit;
+class QFile;
+class QTextStream;
 class Window : public QWidget
 {
     Q_OBJECT
